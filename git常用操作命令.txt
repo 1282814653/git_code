@@ -1,0 +1,21 @@
+git config --global user.name  自己的用户名
+git config --global user.email  自己的邮箱
+
+1.  git init     初始化
+2.  git status   状态 红色为工作区  绿色为暂存区
+3.  git add . 添加到暂存区域
+4.  git commit -m "上传的内容介绍"  上传到存储区(二进制文件)
+5.  git log 查看历史记录  HEAD 指向当前版本
+6.  git reset --hard '复制的log的commit的唯一值()' 回滚
+
+7.  git branch '分支名' 创建分支
+8.  git branch -v 查看所有分支
+9.  git checkout '分支名'  切换分支
+10. git merge '分支名'  合并分支 把 分支 合并到当前分支
+11. git branch -d '分支名'  删除 分支
+
+12.  git remote add origin git@github.com:1282814653/git_code.git  添加 远程关联 
+13.  git remote -v 查看远程源
+14.  git remote remove origin  删除远程关联
+ 
+3. .gitignore 忽略的配置文件
