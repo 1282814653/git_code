@@ -17,5 +17,9 @@ git config --global user.email  自己的邮箱
 12.  git remote add origin git@github.com:1282814653/git_code.git  添加 远程关联 
 13.  git remote -v 查看远程源
 14.  git remote remove origin  删除远程关联
- 
+15.  git push -u origin main 往服务器推送
+16.  git branch -M main 设置 主分支
+17.  git clone '路径' 克隆远程仓库代码到本地 
+
+
 3. .gitignore 忽略的配置文件
